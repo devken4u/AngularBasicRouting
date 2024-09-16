@@ -1,0 +1,35 @@
+<header class="border-b-4 border-[#111111]">
+  <nav>
+    <ul class="flex gap-8 p-8 text-xl font-bold">
+      <li>
+        <a class="hover:text-blue-500 text-blue-500" [routerLink]="['/home']"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a class="hover:text-blue-500" [routerLink]="['/signup']">Sign up</a>
+      </li>
+      <li>
+        <a class="hover:text-blue-500" [routerLink]="['/login']">Login</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main class="text-center">
+  <h1 class="text-6xl p-4 font-semibold">
+    Welcome to My Website, I am <span class="italic text-red-500">DevKen</span>.
+  </h1>
+  <p class="p-4 text-xl max-w-screen-md mx-auto">
+    This website will show basics of routings in
+    <span class="text-red-500">Angular.</span> I created four components; these
+    are <span class="text-red-500">Home</span> (this current page),
+    <span class="text-red-500">Sign up</span>,
+    <span class="text-red-500">Login in</span>, and
+    <span class="text-red-500">Landing</span>
+    page if login attempt is successful.
+  </p>
+  <div class="flex justify-center mt-20">
+    <img class="size-96" src="cats/kitty.gif" alt="dancing-kitty" />
+  </div>
+</main>
